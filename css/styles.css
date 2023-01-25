@@ -12,18 +12,12 @@ html {
 
  /* header */
 
- header {
-    display: flex;
-    justify-content: center;
- }
-
 .top-header {
     /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    align-content: flex-start;
     padding: 40px 0;
     margin: 0 80px;
     flex-basis: 2560px;
@@ -126,4 +120,12 @@ h2 {
 
 .text-glow {
     text-shadow: 0 0 20px #ffffff90;
+}
+
+/* media queries */
+
+@media screen and (max-width: 760px) {
+    .top-header {
+        justify-content: center;
+    }
 }
