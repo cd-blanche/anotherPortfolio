@@ -38,6 +38,11 @@ nav > ul {
     gap: 2em;
 }
 
+a[class] {
+    text-decoration: none;
+    color:#FFF1F6
+}
+
 .header-font {
     /* border: 2px solid yellowgreen;  */
     font-weight: 500;
@@ -83,7 +88,7 @@ h2 {
     text-shadow: 0 0 32px #FB2576;
 }
 
-/* styling rules */
+/* generic stylistic classes */
 
 .strb-inner-shadow {
     box-shadow: 0 0 31px 1px #FB2576 inset;
