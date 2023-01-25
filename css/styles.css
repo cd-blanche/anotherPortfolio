@@ -40,7 +40,8 @@ nav > ul {
 
 a[class] {
     text-decoration: none;
-    color:#FFF1F6
+    color:#FFF1F6;
+    cursor: pointer;
 }
 
 .header-font {
@@ -60,18 +61,18 @@ a.contact {
     box-shadow: 0 0 3px 0 #FB2576;
 }
 
+/* body */
+
+h2 {
+    text-align: center;
+}
+
 .scroll-down {
     /* border: 2px solid yellowgreen; */
     position: sticky;
     top: 5%;
     width: 100%;
     margin: 80px auto;
-}
-
-/* body */
-
-h2 {
-    text-align: center;
 }
 
 
