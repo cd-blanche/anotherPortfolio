@@ -95,6 +95,29 @@ h2 {
     text-shadow: 0 0 32px #FB2576;
 }
 
+.container {
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(1600px, 80%);
+    margin: 0 auto 80px;
+    flex-wrap: wrap;
+}
+
+.sub-hero {
+    height: 700px;
+    flex-basis: 50%;
+    border-radius: 20px;
+    flex-shrink: 0;
+    flex-basis: max(300px, 50%);
+}
+
+.sub-heading {
+    flex-basis: 50%;
+    text-align: center;
+}
+
 /* generic stylistic classes */
 
 .strb-inner-shadow {
