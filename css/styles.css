@@ -44,10 +44,13 @@ nav > ul {
     font-size: 16px;
 }
 
-button[type="button"] {
+a.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 120px;
     height: 40px;
-    border: none;
+    text-align: center;
     border-radius: 10px;
     color: #FFF1F6;
     background-image: linear-gradient(#FB2576 20%, #3F0071 140%);
