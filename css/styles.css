@@ -83,20 +83,24 @@ h2 {
     text-align: center;
 }
 
-.scroll-down {
-    /* border: 2px solid yellowgreen; */
-    position: sticky;
-    top: 5%;
-    width: 100%;
-    margin: 80px auto;
-}
-
-
-.hero {
+.main-page {
     width: min(1600px, 80%);
     height: 700px;
     margin: 0 auto 80px;
     border-radius: 20px;
+}
+
+.sub-page {
+    height: 100px;
+    width: min(1600px, 80%);
+    margin: 0 auto;
+    border-radius: 20px;
+    font-size: 48px;
+}
+
+.page-header {
+    font-size: 60px;
+    text-shadow: 0 0 32px #FB2576;
 }
 
 .body-header {
@@ -128,6 +132,14 @@ h2 {
     text-align: center;
 }
 
+.scroll-down {
+    /* border: 2px solid yellowgreen; */
+    position: sticky;
+    top: 5%;
+    width: 100%;
+    margin: 80px auto;
+}
+
  /* footer */
 
  footer {
@@ -142,6 +154,12 @@ h2 {
  }
 
 /* generic stylistic classes */
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .strb-inner-shadow {
     box-shadow: 0 0 31px 1px #FB2576 inset;
@@ -162,12 +180,21 @@ h2 {
     nav > ul {
         gap: 4em;
     }
+
+    .page-header {
+        font-size: 48px;
+    }
 }
 
 @media screen and (max-width: 520px) {
     .top-header {
         justify-content: center;
         flex-direction: column;
+    }
+
+    .page-header {
+        font-size: 38px;
+        text-shadow: ;
     }
 
     nav > ul {
