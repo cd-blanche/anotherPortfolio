@@ -60,6 +60,10 @@ a[class] {
     cursor: pointer;
 }
 
+a[class]:hover {
+    text-decoration: underline;
+}
+
 .header-font {
     /* border: 2px solid yellowgreen;  */
     font-weight: 500;
@@ -96,7 +100,7 @@ div.clone-header {
     list-style: none;
     font-size: 24px;
     text-align: center;
-    flex-basis: 100px;
+    flex-basis: 160px;
 }
 
 /* body */
