@@ -77,6 +77,28 @@ a.contact {
     box-shadow: 0 0 3px 0 #FB2576;
 }
 
+div.clone-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    gap: 40px;
+}
+
+.clone-nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+.clone-links {
+    list-style: none;
+    font-size: 24px;
+    text-align: center;
+    flex-basis: 100px;
+}
+
 /* body */
 
 figure {
