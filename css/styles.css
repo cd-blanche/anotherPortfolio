@@ -147,7 +147,7 @@ div[class~="page-section"] h3:nth-of-type(1) {
     justify-content: center;
     align-items: center;
     width: min(1600px, 80%);
-    margin: 0 auto 80px;
+    margin: 0 auto 200px;
     flex-wrap: wrap;
 }
 
@@ -161,6 +161,10 @@ div[class~="page-section"] h3:nth-of-type(1) {
 .sub-heading {
     flex-basis: 50%;
     text-align: center;
+}
+
+.sample-block {
+    background-color: #595959;
 }
 
 .page-section {
