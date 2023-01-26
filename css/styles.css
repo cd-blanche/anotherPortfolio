@@ -79,6 +79,23 @@ a.contact {
 
 /* body */
 
+figure {
+    /* border: 2px solid greenyellow; */
+    text-align: center;
+}
+
+figcaption {
+    margin: 4px auto 0;
+    color: #434343;
+    font-style: italic;
+    font-size: 0.9em;
+    width: min(1600px, 80%);
+}
+
+figcaption > a {
+    color:#595959;
+}
+
 h2 {
     text-align: center;
 }
@@ -86,12 +103,12 @@ h2 {
 .main-page {
     width: min(1600px, 80%);
     height: 700px;
-    margin: 0 auto 80px;
+    margin: 0 auto;
     border-radius: 20px;
 }
 
 .sub-page {
-    height: 100px;
+    height: 200px;
     width: min(1600px, 80%);
     margin: 0 auto;
     border-radius: 20px;
@@ -197,6 +214,10 @@ h2 {
         text-shadow: ;
     }
 
+    .sub-page {
+        height: 100px;
+    }
+
     nav > ul {
         flex-direction: column;
         gap: 1em;
@@ -206,5 +227,9 @@ h2 {
     h1 {
         font-size: 32px;
         text-align: center;
+    }
+    
+    figcaption {
+        font-size: 12px;
     }
 }
