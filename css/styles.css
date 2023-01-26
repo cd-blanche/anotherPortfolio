@@ -12,6 +12,11 @@ html {
 
  /* header */
 
+ header {
+    display: flex;
+    justify-content: center;
+ }
+
 .top-header {
     /* border: 2px solid red; */
     display: flex;
