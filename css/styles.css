@@ -106,18 +106,27 @@ h2 {
     text-align: center;
 }
 
+div[class~="page-section"] h3 {
+    font-size: 32px;
+    font-weight: 500;
+    text-shadow: 0 0 32px #FB2576;
+    margin: 16px 0 0;
+}
+
+div[class~="page-section"] h3:nth-of-type(1) {
+    margin-top: 0;
+}
+
 .main-page {
     width: min(1600px, 80%);
     height: 700px;
     margin: 0 auto;
-    border-radius: 20px;
 }
 
 .sub-page {
     height: 200px;
     width: min(1600px, 80%);
     margin: 0 auto;
-    border-radius: 20px;
     font-size: 48px;
 }
 
@@ -145,7 +154,6 @@ h2 {
 .sub-hero {
     height: 700px;
     flex-basis: 50%;
-    border-radius: 20px;
     flex-shrink: 0;
     flex-basis: max(300px, 50%);
 }
@@ -153,6 +161,16 @@ h2 {
 .sub-heading {
     flex-basis: 50%;
     text-align: center;
+}
+
+.page-section {
+    width: min(1600px, 80%);
+    margin: 40px auto;
+    padding: 20px 40px;
+}
+
+.page-section ul {
+    margin-left: 18px;
 }
 
 .scroll-down {
@@ -187,10 +205,15 @@ h2 {
 
 .strb-inner-shadow {
     box-shadow: 0 0 31px 1px #FB2576 inset;
+    border-radius: 20px;
 }
 
 .text-glow {
     text-shadow: 0 0 20px #ffffff90;
+}
+
+.strb-text-glow {
+    text-shadow: 0 0 32px #FB2576;
 }
 
 /* media queries */
