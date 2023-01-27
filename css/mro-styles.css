@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html {
+    background-color: #fafafa;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background: #242424;
+    color: #ffffff;}
+
+.online-financing {
+    height: 90px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pay-later {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #242424;
+    width: fit-content;
+    height: fit-content;
+    background-color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 1px 16px;
+}
+
+.financing {
+    font-size: 28px;
+}
+
+.red-notice {
+    flex: 1 0 auto;
+    padding: 10px;
+    width: 100vw;
+    background: #d80000;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.subscribe > svg {
+    height: 20px;
+    width: 20px;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid greenyellow; */
+    height: 200px;
+    width: min(1480px, 90%);
+    margin: 0 auto;
+}
+
+.top-header img {
+    width: 220px;
+    height: 90px;
+    margin: 20px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar {
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    flex-basis: 80%;
+
+}
+
+input[name="search"] {
+    width: 95%;
+    height: 40px;
+}
+
+button[type="submit"] {
+    width: 5%;
+    background-color: rgb(216, 0, 0);
+}
+
+.shopping-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-header {
+    /* border: 2px solid red; */
+    height: 60px;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    height: 480px;
+    bottom: 0;
+    background: #242424;
+}
