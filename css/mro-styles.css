@@ -51,7 +51,6 @@ header {
 }
 
 .red-notice {
-    flex: 1 0 auto;
     padding: 10px;
     width: 100vw;
     background: #d80000;
@@ -61,18 +60,34 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
+.announcement {
+    width: min(1480px, 90%);
+    position: relative;
+    /* border: 1px solid blue; */
+}
+
+/*
+    I want the announcement box to always stay in the middle,
+    while the message box always stays to the left of it.
+*/
+
+
 .subscribe {
-    margin-left: 30px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .subscribe > svg {
-    height: 20px;
+    /* border: 2px solid plum; */
+    height: 17px;
     width: 20px;
 }
 
@@ -106,12 +121,22 @@ header {
 
 input[name="search"] {
     width: 95%;
-    height: 40px;
+    height: 45px;
+    border: none;
+    padding: 0 10px;
+    border-radius: 4px 0 0 4px;
+}
+
+input[name="search"]:focus {
+    outline: none;
 }
 
 button[type="submit"] {
-    width: 5%;
+    flex: 0 0 auto;
+    width: 45px;
     background-color: rgb(216, 0, 0);
+    border: none;
+    border-radius: 0 4px 4px 0;
 }
 
 .shopping-cart {
