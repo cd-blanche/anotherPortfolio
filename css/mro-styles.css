@@ -25,7 +25,7 @@ header {
 
 .online-financing {
     height: 90px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,6 @@ header {
 
 .red-notice {
     padding: 10px;
-    width: 100vw;
     background: #d80000;
     font-weight: 700;
     font-size: 15px;
