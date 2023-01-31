@@ -68,12 +68,6 @@ header {
     /* border: 1px solid blue; */
 }
 
-/*
-    I want the announcement box to always stay in the middle,
-    while the message box always stays to the left of it.
-*/
-
-
 .subscribe {
     display: flex;
     align-items: center;
@@ -97,15 +91,18 @@ header {
     height: 200px;
     width: min(1480px, 90%);
     margin: 0 auto;
+    position: relative;
 }
 
 .top-header img {
+    /* border: 2px solid red; */
     width: 220px;
     height: 90px;
-    margin: 20px;
+    margin: 20px 40px 20px 0;
 }
 
 .top-header {
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -197,6 +194,54 @@ button[type="submit"] {
 .bottom-header {
     /* border: 2px solid red; */
     height: 60px;
+    display: flex;
+    gap: 25px;
+    font-weight: 700;
+    align-items: flex-end;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.bottom-header > div:hover {
+    color: #d80000;
+    cursor: pointer;
+}
+
+.shop {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.shop:hover .cat-container {
+    visibility: visible;
+}
+
+#categories {
+    color: white;
+}
+
+.cat-container {
+    /* visibility: hidden; */
+    z-index: 1;
+    /* border: 2px solid greenyellow; */
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+    width: 100%;
+    background-color: #d80000;
+}
+
+.categories {
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    flex: 1 0 auto;
+    height: 50px;
 }
 
 main {
