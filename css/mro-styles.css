@@ -169,12 +169,29 @@ button[type="submit"] {
     align-items: center;
     justify-content: center;
     width: 10%;
-    gap: 10px;
+    gap: 25px;
+    position: relative;
+
 }
 
 .cart-icon {
     width: 27px;
     height: 24px;
+}
+
+.cart-count {
+    position: absolute;
+    background-color: #d80000;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: -8px;
+    left: 54px;
+    font-size: 13px;
+    font-weight: lighter;
 }
 
 .bottom-header {
