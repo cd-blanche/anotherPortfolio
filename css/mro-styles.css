@@ -114,7 +114,7 @@ header {
 .search-bar {
     /* border: 2px solid greenyellow; */
     display: flex;
-    flex-basis: 80%;
+    flex-basis: 60%;
 
 }
 
@@ -135,14 +135,48 @@ button[type="submit"] {
     width: 45px;
     background-color: rgb(216, 0, 0);
     border: none;
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 2px 2px 0;
+}
+
+.account-menu {
+    flex: 1 0 auto;
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.my-account, .shopping-cart {
+    font-weight: 700;
+}
+
+.arrow-down {
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+}
+
+.v-separator {
+    width: 1px;
+    height: 34px;
+    background-color: #ffffff30;
 }
 
 .shopping-cart {
+    flex: 1 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 10%;
+    gap: 10px;
 }
+
+.cart-icon {
+    width: 27px;
+    height: 24px;
+}
+
 .bottom-header {
     /* border: 2px solid red; */
     height: 60px;
